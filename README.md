@@ -34,15 +34,15 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| web1    |  server     10.0.0.4  |  Linux          |                  |
+| web2    |   server    10.0.0.5     Linux             |
+| elkvm     server     10.2.0.4       Linux             |
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the kibana machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - _TODO: Add whitelisted IP addresses_
 
 Machines within the network can only be accessed by _____.
